@@ -20,7 +20,7 @@ function Homepage() {
     }, []);
 
   return (
-    <div className='mt-14 ml-14'>
+    <div className='mt-20 ml-14'>
       <div className='flex'>
         <div>
           <p className='text-gray-300'>Image of the day</p>
