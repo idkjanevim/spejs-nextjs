@@ -6,6 +6,8 @@ const nextConfig = {
     loader:"akamai",
     path:""
   },
+  basePath:"/spejs-nextjs",
+  assetPrefix:"/spejs-nextjs"
 
 }
 
