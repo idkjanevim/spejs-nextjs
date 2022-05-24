@@ -27,10 +27,13 @@ function Homepage() {
       var date = randomDate(new Date(2000, 0, 1), new Date())
       var stringDate = ""
       stringDate = stringDate + date.getFullYear() + "-"
-      if(date.getMonth().toString().length < 2){
-        stringDate = stringDate + "0" + date.getMonth()
+      if(date.getMonth().toString().length + 1 < 2){
+        stringDate = stringDate + "0" + (date.getMonth() + 1)
       }
-      stringDate = stringDate + "-" + (date.getDate()+1)
+      else{
+        stringDate = stringDate + (date.getMonth() + 1)
+      }
+      stringDate = stringDate + "-" + date.getDate()
       console.log(stringDate)
       fetch("https://api.nasa.gov/planetary/apod?api_key=eIfrPRv0IskcVMySQp1zGRg2zgtN56Kie31aoolS&date=" + stringDate)
       .then(response => response.json())
