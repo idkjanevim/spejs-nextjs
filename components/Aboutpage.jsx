@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { SiNextdotjs, SiTailwindcss } from "react-icons/Si";
+import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 
 function Aboutpage() {
   return (
