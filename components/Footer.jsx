@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { BsGithub, BsLinkedin } from "react-icons/Bs";
+//import { BsGithub, BsLinkedin } from "react-icons/Bs";
 
 function Footer() {
   return (
@@ -15,12 +15,14 @@ function Footer() {
       </div>
 
       <div className="flex">
+        {/*
         <Link href="https://github.com/idkjanevim">
           <BsGithub className="text-3xl cursor-pointer hover:scale-110 ease-out duration-500 mx-2" />
         </Link>
         <Link href="https://www.linkedin.com/in/ondřej-hrzán-2aa002240/">
           <BsLinkedin className="text-3xl cursor-pointer hover:scale-110 ease-out duration-500 mx-2" />
         </Link>
+      */}
       </div>
 
       <div>
