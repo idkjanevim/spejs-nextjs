@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { SiNextdotjs, SiTailwindcss } from "react-icons/Si";
+//import { SiNextdotjs, SiTailwindcss } from "react-icons/Si";
 
 function Aboutpage() {
   return (
@@ -21,8 +21,10 @@ function Aboutpage() {
           {"."}
         </div>
         <div className="text-9xl flex justify-center">
-          <SiNextdotjs className="m-14 mx-20 hover:scale-110 ease-in duration-700" />
+          {/*
+          <SiNextdotjs className="m-14 mx-20 hover:scale-110 ease-in duration-700" /> 
           <SiTailwindcss className="m-14 mx-20 hover:scale-110 ease-in duration-700" />
+           */}
         </div>
       </div>
     </div>
