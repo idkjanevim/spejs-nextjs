@@ -87,7 +87,13 @@ function Homepage() {
       <div className="flex border-b-[1px] mt-20 pl-14 pb-14">
         <div>
           <p className="text-gray-300">Image of the day</p>
-          <Image className="select-none" src={image} height={500} width={800} />
+          <Image
+            className="select-none"
+            alt={imageTit}
+            src={image}
+            height={500}
+            width={800}
+          />
           <p className="text-white font-bold text-xl">{imageTit}</p>
           <p className="text-gray-300 inline-block max-w-2xl">{imageExpl}</p>
         </div>
@@ -97,6 +103,7 @@ function Homepage() {
           </h1>
           <Image
             className="select-none"
+            alt={RimageTit}
             src={Rimage}
             height={500}
             width={1000}
@@ -110,6 +117,7 @@ function Homepage() {
         <Image
           className="select-none p-14"
           src={uRimage}
+          alt={uRimageTit}
           height={500}
           width={700}
         />
