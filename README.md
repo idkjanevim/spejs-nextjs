@@ -1,3 +1,21 @@
+# Spejs
+Small website with pictures related to space, built with [Next.js](https://nextjs.org/) and [TailWindCSS](https://tailwindcss.com).  
+https://idkjanevim.github.io/spejs-nextjs/
+
+# Description
+I used Next.js and TailWindCSS to create website that shows you diferent pictures from [Nasa API](https://api.nasa.gov) and also gives you explanation of them.  
+*Website is not responsive yet! I am planning to add it in the future.*
+
+## Platforms / Technologies
+* [Next.js](https://nextjs.org/)
+* [React](https://reactjs.org)
+* [TailWindCSS](https://tailwindcss.com)
+* [Nasa API](https://api.nasa.gov)
+* [EmailJS](https://www.emailjs.com)
+
+
+
+***
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
