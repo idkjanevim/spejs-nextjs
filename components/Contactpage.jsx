@@ -15,7 +15,7 @@ function Contactpage() {
     }
 
     emailjs
-      .sendForm("gmail", "template_wl8y8qr", form.current, "D_B7KkmYeFwBhGTw3")
+      .sendForm("gmail", "", form.current, "")
       .then(
         (result) => {
           console.log(result.text);
