@@ -17,7 +17,7 @@ function Contact() {
       </Head>
       <Navbar />
       <Contactpage />
-      <div className="fixed bottom-0 w-screen">
+      <div className="fixed bottom-0 w-full">
         <Footer />
       </div>
     </div>

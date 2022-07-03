@@ -20,9 +20,9 @@ function Aboutpage() {
           </Link>
           {"."}
         </div>
-        <div className="text-9xl flex justify-center">
-          <SiNextdotjs className="m-14 mx-20 hover:scale-110 ease-in duration-700" />
-          <SiTailwindcss className="m-14 mx-20 hover:scale-110 ease-in duration-700" />
+        <div className="text-9xl flex mt-16 md:mt-auto justify-evenly sm:justify-center ">
+          <SiNextdotjs className="sm:m-14 sm:mx-20 hover:scale-110 ease-in duration-700 0" />
+          <SiTailwindcss className="sm:m-14 sm:mx-20 hover:scale-110 ease-in duration-700 " />
         </div>
       </div>
     </div>

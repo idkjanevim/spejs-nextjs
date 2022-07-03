@@ -84,8 +84,8 @@ function Homepage() {
 
   return (
     <div>
-      <div className="flex border-b-[1px] mt-20 pl-14 pb-14">
-        <div>
+      <div className="flex lg:flex-row flex-col-reverse border-b-[1px] mt-20 pl-14 pb-14 ">
+        <div className="">
           <p className="text-gray-300">Image of the day</p>
           <Image
             className="select-none"
@@ -97,7 +97,7 @@ function Homepage() {
           <p className="text-white font-bold text-xl">{imageTit}</p>
           <p className="text-gray-300 inline-block max-w-2xl">{imageExpl}</p>
         </div>
-        <div className="w-full text-center">
+        <div className="w-full text-center ">
           <h1 className="text-white text-5xl mb-24">
             Welcome to <span className="font-bold">Spejs</span>
           </h1>
@@ -113,7 +113,7 @@ function Homepage() {
         </div>
       </div>
 
-      <div className="pt-14 pl-14 flex justify-center">
+      <div className="pt-14 pl-14 flex lg:flex-row flex-col justify-center">
         <Image
           className="select-none p-14"
           src={uRimage}

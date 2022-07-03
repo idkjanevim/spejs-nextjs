@@ -28,16 +28,16 @@ function Contactpage() {
 
   return (
     <div className="flex justify-center ">
-      <div className="mt-20">
+      <div className="mt-20 md:w-auto w-2/3">
         <h1 className="text-center mb-20 font-semibold text-4xl">
           Contact Me!
         </h1>
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="grid grid-cols-2 w-[800px]"
+          className="flex flex-col gap-4 w-full md:grid md:grid-cols-2 md:w-[800px]"
         >
-          <div className="flex flex-col mx-14 h-min">
+          <div className="flex flex-col md:mx-14 h-min w-full md:w-auto">
             <label>Name</label>
             <input
               value={name}
@@ -48,7 +48,7 @@ function Contactpage() {
             />
           </div>
 
-          <div className="flex flex-col mx-14 h-min">
+          <div className="flex flex-col md:mx-14 h-min w-full md:w-auto">
             <label>Email</label>
             <input
               value={email}
@@ -59,7 +59,7 @@ function Contactpage() {
             />
           </div>
 
-          <div className="flex flex-col mx-14 col-span-2 h-min">
+          <div className="flex flex-col md:mx-14 col-span-2 h-min w-full md:w-auto">
             <label>Subject</label>
             <input
               value={subject}
@@ -70,7 +70,7 @@ function Contactpage() {
             />
           </div>
 
-          <div className="flex flex-col mx-14 col-span-2 h-min">
+          <div className="flex flex-col md:mx-14 col-span-2 h-min w-full md:w-auto">
             <label>Message</label>
             <textarea
               value={msg}
@@ -81,7 +81,7 @@ function Contactpage() {
             <input
               type="submit"
               value="Send"
-              className="mt-14 bg-white text-black hover:bg-slate-700 hover:text-white ease-linear duration-200 h-10 w-[30%] cursor-pointer rounded-3xl text-center self-center font-semibold"
+              className="w-full mt-14 bg-white text-black hover:bg-slate-700 hover:text-white ease-linear duration-200 h-10 md:w-[30%] cursor-pointer rounded-3xl text-center self-center font-semibold"
             />
           </div>
         </form>
