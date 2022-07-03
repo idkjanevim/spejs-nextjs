@@ -4,7 +4,8 @@ https://idkjanevim.github.io/spejs-nextjs/
 
 # Description
 I used Next.js and TailWindCSS to create website that shows you diferent pictures from [Nasa API](https://api.nasa.gov) and also gives you explanation of them.  
-*Website is not responsive yet! I am planning to add it in the future.*
+  
+**Responsivnes made by [Olspe](https://github.com/Olspe)**
 
 ## Platforms / Technologies
 * [Next.js](https://nextjs.org/)
